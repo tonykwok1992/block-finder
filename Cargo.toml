@@ -3,11 +3,6 @@ name = "block-finder"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-abigen = ["ethers-contract/abigen"]
-
-
 [dependencies]
 clap = { version = "3.1.10", features = ["derive"] }
 tokio = { version = "1", features = ["macros"] }
